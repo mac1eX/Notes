@@ -1,0 +1,17 @@
+certmgr.msc - Certificate Manager
+ciadv.msc - Indexing Service
+compmgmt.msc - Computer management
+devmgmt.msc - Device Manager
+dfrg.msc - Defragment
+diskmgmt.msc - Disk Management
+fsmgmt.msc - Folder Sharing Management
+eventvwr.msc - Event Viewer
+gpedit.msc - Group Policy (< XP Pro)
+iis.msc - Internet Information Services
+lusrmgr.msc - Local Users and Groups
+mscorcfg.msc - Net configurations
+ntmsmgr.msc - Removable Storage
+perfmon.msc - Performance Manager
+secpol.msc - Local Security Policy
+services.msc - System Services
+wmimgmt.msc - Windows Management 
