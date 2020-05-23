@@ -1,0 +1,21 @@
+access.cpl - Accessibility Options
+hdwwiz.cpl - Add New Hardware Wizard
+appwiz.cpl - Add/Remove Programs
+timedate.cpl - Date and Time Properties
+desk.cpl - Display Properties
+inetcpl.cpl - Internet Properties
+joy.cpl - Joystick Properties
+main.cpl keyboard - Keyboard Properties
+main.cpl - Mouse Properties
+ncpa.cpl - Network Connections
+ncpl.cpl - Network Properties
+telephon.cpl - Phone and Modem options
+powercfg.cpl - Power Management
+intl.cpl - Regional settings
+mmsys.cpl sounds - Sound Properties
+mmsys.cpl - Sounds and Audio Device Properties
+sysdm.cpl - System Properties
+nusrmgr.cpl - User settings
+firewall.cpl - Firewall Settings (sp2)
+wscui.cpl - Security Center (sp2)
+Wupdmgr - Takes you to Microsoft Windows Update 
