@@ -1,0 +1,8 @@
+Opis komunikatu:
+Nieprawidłowe uprawnienia w katalogach usługi Windows Search.
+
+Rozwiązanie:
+Ustawić uprawnienia użytkownika do katalogu
+%PROGRAMDATA%\Microsoft\Search\Data
+
+Odbudować indeks.
