@@ -1,0 +1,34 @@
+Rozwiązanie problemu komunikatu "Wywołanie StartDocPrinter nie zostało wysłane."
+
+
+Ten kod błędu oznacza, że ​​wywołanie StartDocPrinter nie zostało wykonane. Ten kod błędu pojawia się, jeśli bufor wydruku nie może wysłać danych do portu. Zadanie drukowania jest oznaczone jako „Błąd drukowania”. W takim przypadku bufor wydruku próbuje kilka razy wysłać dane, dopóki nie anulujesz zadania.
+
+
+
+cmd.exe - right click to execute as Administrator
+
+cd\Windows\System32\spool
+
+cacls.exe PRINTERS /E /G administrator:C
+
+Reboot
+
+ 
+Should work.  If issues persist, you may want to also execute the above, substitute your user name for "administrator" in this line
+
+
+KB3192404
+Rozwiązano problem polegający na braku możliwości drukowania z niektórych aplikacji, gdy wpis w pamięci podręcznej dla drukarki sieciowej nie był dostępny w kluczu rejestru renderowania po stronie klienta (CSR). Komunikat o błędzie to „Wywołanie StartDocPrinter nie zostało wysłane”.
+
+
+KB4522016
+Windows 10 ma kolejny problem, który tym razem dotyczy obsługi drukarek. Winna jest aktualizacja zbiorcza KB4522016, po której użytkownicy zwrócili uwagę na kłopoty z drukowaniem.
+
+
+KB4557957 wywołuje bląd
+
+
+1. Printer Troubleshooter. restart pc.
+2. restart bufor wydruku.
+3. uruchomić cacls.exe
+4. Odinstalować drukarki z devmgmt.msc
