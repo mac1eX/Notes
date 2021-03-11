@@ -1,0 +1,17 @@
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install build-essential
+curl -o node-v14.15.5-linux-armv6l.tar.gz https://unofficial-builds.nodejs.org/download/release/v14.15.5/node-v14.15.5-linux-armv6l.tar.gz
+tar -xzf node-v14.15.5-linux-armv6l.tar.gz
+sudo cp -r node-v14.15.5-linux-armv6l/* /usr/local/
+sudo apt install mongodb
+sudo systemctl enable mongodb.service
+sudo systemctl start mongodb.service
+sudo apt-get install libsass-dev
+sudo apt-get install git
+sudo git clone https://github.com/deviavir/zenbot.git
+cd zenbot/
+sudo cp conf-sample.js conf.js
+sudo npm --unsafe-perm install
+sudo npm install mongodb@2.2.19 --unsafe-perm
+sudo npm audit fix --unsafe-perm
+export NODE_OPTIONS=--max_old_space_size=512
