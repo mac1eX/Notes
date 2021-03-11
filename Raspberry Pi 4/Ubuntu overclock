@@ -1,0 +1,9 @@
+sudo nano /boot/firmware/config.txt
+
+Dodać:
+
+#force_turbo=1 przetestować stabilność.
+
+arm_freq=2147
+over_voltage=8
+gpu_freq=750
